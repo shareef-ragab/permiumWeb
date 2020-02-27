@@ -1,34 +1,64 @@
-.nav-opacity{
+.nav-opacity {
     opacity: 100%;
 }
+.mouse{
+    color: #FFF;
+}
+.mouse:hover{
+    color: #FBD16B;
+}
 
+.mouse_contact{
+    color: #000;
+}
+.mouse_contact:hover{
+    color: #FFF;
+}
+
+.mouse_contact_revert{
+    color: #FFF;
+}
+.mouse_contact_revert:hover{
+    color: #000;
+}
 @media (max-width: 575.98px) {
-    .nav-home{
-        margin-top: -5rem!important;
+    .nav-home {
+        margin-top: 5rem !important;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .nav-home{
-        margin-top: -20rem!important;
+    .nav-home {
+        margin-top: 20rem !important;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .nav-home{
-        margin-top: -25rem!important;
+    .nav-home {
+        margin-top: 25rem !important;
+
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .nav-home{
-        margin-top: -30rem!important;
+    .nav-home {
+
     }
 }
 
 @media (min-width: 1200px) {
-    .nav-home{
-        margin-top: -32rem!important;
+    .nav-home {
+        margin-top: 10rem !important;
     }
+
 }
 
+.background {
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
