@@ -26,6 +26,7 @@
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link text-uppercase font-weight-bold m-3 pl-4 pr-4 pt-sm-2 pb-sm-2 mouse_contact " href="#" style="background: #FBD16B;">{{trans('nav.contact_us')}}</a>
+
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link text-uppercase font-weight-bold m-3 mr-5" href="#" ><img src="/img/search.png"></a>

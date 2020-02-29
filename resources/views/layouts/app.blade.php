@@ -7,7 +7,6 @@
     <!-- Fonts -->
     <link href="{{url('/')}}" rel="stylesheet">
     <!-- Bootstrap CSS -->
-
     <link href="/css/welcome.css" rel="stylesheet">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
