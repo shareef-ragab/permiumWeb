@@ -4,10 +4,100 @@
 @endsection
 
 @section('content')
-    <div   style="margin-top: -10%;">
-        <img width="1366" height="665" src="/img/Group%20265.png">
+    <div class=" nav-home">
+        <div class=" text-uppercase font-weight-bold mx-auto text-center display-4 "
+             style="color: #FBD16B">{{trans('APP.header-title-one')}}</div>
+        <div class="text-uppercase font-weight-bold mx-auto text-center display-4 "
+             style="color: #FBD16B">{{trans('APP.header-title-two')}}</div>
+        <div class=" mx-auto text-center display-4 mt-n5" style="color: #FBD16B; border-color: #707070;opacity: 1">
+            <span style="border-color: #707070; text-shadow: #000000">___</span>
+        </div>
+        <div class=" text-uppercase mx-auto text-center text-white mt-md-5">{{trans('APP.header-small')}}</div>
+        <!-- card header-->
+        <div class="row m-5 mt-lg-5">
+            <div class="col-sm-4  " style="border-color: #707070; box-shadow: #1b1e21">
+                <div class="card col-sm-10 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title text-md-center col-12">{{trans('APP.header-card-left')}}</h5>
+                        <div class="col-md-11">
+                            <img src="/img/Group%20243@2x.png" class="card-img" alt="...">
+                        </div>
+                        <div class="card-text text-md-center  mx-auto ">
+                            <p class="text-wrap text-justify col-12">{{trans('APP.content-card-left')}}</p>
+                        </div>
+                        <div class=" mx-auto text-center">
+                            <a href="#" style="color: #FBD16B; ">{{trans('APP.link-card-left')}}<img
+                                    src="/img/arrow_forward.png" class="img-fluid small"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4  " style="border-color: #707070; box-shadow: #1b1e21">
+                <div class="card col-sm-10 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title text-md-center col-12">{{trans('APP.header-card-center')}}</h5>
+                        <div class="col-md-11">
+                            <img src="/img/Group%20243@2x.png" class="card-img" alt="...">
+                        </div>
+                        <div class="card-text text-md-center mx-auto ">
+                            <p class="text-wrap text-justify col-12">{{trans('APP.content-card-center')}}</p>
+                        </div>
+                        <div class=" mx-auto text-center">
+                            <a href="#" style="color: #FBD16B; ">{{trans('APP.link-card-center')}}<img
+                                    src="/img/arrow_forward.png" class="img-fluid small"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4  " style="border-color: #707070; box-shadow: #1b1e21">
+                <div class="card col-sm-10 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title text-md-center col-12">{{trans('APP.header-card-right')}}</h5>
+                        <div class="col-md-11">
+                            <img src="/img/Group%20243@2x.png" class="card-img" alt="...">
+                        </div>
+                        <div class="card-text text-md-center mx-auto ">
+                            <p class="text-wrap text-justify col-12">{{trans('APP.content-card-right')}}</p>
+                        </div>
+                        <div class=" mx-auto text-center">
+                            <a href="#" style="color: #FBD16B; ">{{trans('APP.link-card-right')}}<img
+                                    src="/img/arrow_forward.png" class="img-fluid small"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about -->
+        <div class="col-sm-6 mt-lg-5 text-md-center text-center mx-auto m-5">
+            <p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata</p>
+        </div>
+        <!-- -->
+        <div class="card-group col-lg-12 mx-auto mt-lg-5 mb-lg-5">
+            <div class="no-gutters col-lg-2 m-3 mx-auto ml-lg-auto">
+                <img src="/img/asset.png" class="img-fluid">
+            </div>
+            <div class="no-gutters col-lg-2 m-3 mx-auto ml-lg-auto">
+                <img src="/img/asset.png" class="img-fluid">
+            </div>
+            <div class="no-gutters col-lg-2 m-3 mx-auto ml-lg-auto">
+                <img src="/img/asset.png" class="img-fluid">
+            </div>
+            <div class="no-gutters col-lg-2 m-3 mx-auto ml-lg-auto">
+                <img src="/img/asset.png" class="img-fluid">
+            </div>
+            <div class="no-gutters col-lg-2 m-3 mx-auto ml-lg-auto">
+                <img src="/img/asset.png" class="img-fluid">
+            </div>
+        </div>
+        @include('layouts.Explore_offering')
+        @include('layouts.industry_expertise')
+        @include('layouts.recognitions_partnerships')
+        @include('layouts.featured_insights')
+        @include('layouts.need_consultation')
     </div>
-<div style="margin-top: -10%;">
-    <div class="text-uppercase font-weight-bold" style="color: #FBD16B"></div>
-</div>
 @endsection
