@@ -7,6 +7,7 @@
     <!-- Fonts -->
     <link href="{{url('/')}}" rel="stylesheet">
     <!-- Bootstrap CSS -->
+
     <link href="/css/welcome.css" rel="stylesheet">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -43,5 +44,17 @@
         });
     });
 </script>
+    <script>
+        $('#list-tab-Explore a').on('click', function (e) {
+            e.preventDefault()
+            $(this).tab('show').userSelect
+        })
+    </script>
+    <script>
+        $('#list-tab-our-customer a').on('click', function (e) {
+            e.preventDefault()
+            $(this).tab('show').userSelect
+        })
+    </script>
 </body>
 </html>
