@@ -94,10 +94,16 @@
                 <img src="/img/asset.png" class="img-fluid">
             </div>
         </div>
-        @include('layouts.Explore_offering')
-        @include('layouts.industry_expertise')
-        @include('layouts.recognitions_partnerships')
-        @include('layouts.featured_insights')
-        @include('layouts.need_consultation')
+        @include('layouts.part_Home.Explore_offering')
+        @include('layouts.part_Home.improve_innovate_trends')
+        @include('layouts.part_Home.Solutions_deliver')
+        @include('layouts.part_Home.managed_services')
+        @include('layouts.part_Home.Platforms_work')
+        @include('layouts.part_Home.success_stories')
+        @include('layouts.part_Home.OUR_CUSTOMERS_SAY')
+        @include('layouts.part_Home.industry_expertise')
+        @include('layouts.part_Home.recognitions_partnerships')
+        @include('layouts.part_Home.featured_insights')
+        @include('layouts.part_Home.need_consultation')
     </div>
 @endsection

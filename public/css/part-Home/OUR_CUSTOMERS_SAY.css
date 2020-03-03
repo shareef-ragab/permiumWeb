@@ -1,0 +1,49 @@
+
+.item-select{
+    background-color: #333333;
+    opacity: 1;
+    border: none;
+}
+.item-select:hover{
+    background-color: #333333;
+    border-top-left-radius: 0px;
+    border-left-style: solid ;
+    border-left-color: #FBD16B;
+}
+
+.list-group-item.item-select.active,
+.list-group-item.item-select.active:hover {
+    background-color: #333333;
+    border-top-left-radius: 0px;
+    border-left-style: solid ;
+    border-left-color: #FBD16B;
+}
+
+@media (max-width: 575.98px) {
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+    .card-content-item{
+        width: 300px;
+        height:565px ;
+    }
+    .card-content{
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+}
+
+

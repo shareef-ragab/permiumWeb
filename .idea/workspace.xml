@@ -16,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -108,6 +109,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1Y4DirSq330HpE85dG6YaqBZquw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -119,12 +121,19 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Ampps\www\premiumWeb\public\img" />
+      <recent name="C:\Ampps\www\premiumWeb\public\css\part-Home" />
+      <recent name="C:\Ampps\www\premiumWeb\public\js" />
       <recent name="C:\Ampps\www\premiumWeb\resources\lang\ar" />
       <recent name="C:\Ampps\www\premiumWeb\resources\lang\en" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Ampps\www\premiumWeb\resources\lang\en\part-home" />
+      <recent name="C:\Ampps\www\premiumWeb\resources\views\layouts\part_Home" />
     </key>
   </component>
   <component name="RunManager">
@@ -159,34 +168,77 @@
       <workItem from="1582193638355" duration="649000" />
       <workItem from="1582195476678" duration="507000" />
       <workItem from="1582196042643" duration="12046000" />
-      <workItem from="1582447405792" duration="463000" />
+      <workItem from="1582450161419" duration="20600000" />
+      <workItem from="1582532015138" duration="23582000" />
+      <workItem from="1582792607007" duration="22682000" />
+      <workItem from="1583051357535" duration="160000" />
+      <workItem from="1583051687771" duration="24990000" />
+      <workItem from="1583135843328" duration="15586000" />
+      <workItem from="1583159239498" duration="596000" />
+      <workItem from="1583256820016" duration="92000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="436" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582199906577">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="436" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582808211533">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="436" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1582199906577" />
-    <state x="502" y="54" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1582197460269">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="436" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1582808211533" />
+    <state x="502" y="55" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1583068549803">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="502" y="54" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582197460269" />
-    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1582199869656">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="502" y="55" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.738@0.0.1366.738" timestamp="1583068549803" />
+    <state x="363" y="97" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583051379496">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="363" y="97" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1583051379496" />
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582458729648">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1582458729648" />
+    <state x="463" y="111" key="FileChooserDialogImpl" timestamp="1583143199671">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1583143199671" />
+    <state x="518" y="291" key="NewPhpFileDialog" timestamp="1583143386944">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1582199869656" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1582195972036">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582195972036" />
-    <state x="384" y="197" key="com.intellij.ide.util.TipDialog" timestamp="1582447395060">
+    <state x="518" y="291" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1583143386944" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1583162747699">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="384" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582196043655" />
-    <state x="384" y="197" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1582447395060" />
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582195972036" />
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1582792901097" />
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583162747699" />
+    <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582534876017">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1582534876017" />
+    <state x="384" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1583256902820">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="384" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582450157794" />
+    <state x="384" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1583135877453" />
+    <state x="384" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583256902820" />
+    <state x="339" y="164" key="run.anything.popup" timestamp="1582535962076">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582451508624" />
+    <state x="339" y="164" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1582535962076" />
+    <state x="346" y="59" key="search.everywhere.popup" timestamp="1582554260284">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1582554260284" />
   </component>
 </project>

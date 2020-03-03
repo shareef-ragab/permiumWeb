@@ -31,6 +31,9 @@ return [
     'content-card-insights-right'=>'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat',
     'Learn_More'=>'Learn More',
     'recognitions_partnerships'=>'recognitions and partnerships',
-    'industry_expertise'=>'industry expertise',
-    'content_industry_expertise'=>'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum Lorem',
+    'title_Platforms_work'=>'Platforms we work with',
+    'content_Platforms_work'=>'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est',
+    'title_managed_services'=>'managed it services',
+    'content_managed_services'=>'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam',
+
 ];
