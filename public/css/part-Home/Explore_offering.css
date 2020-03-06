@@ -32,6 +32,10 @@
 }
 
 @media (min-width: 1200px) {
+    .text-left.ml-lg-5.mt-lg-2{
+        font-size: 18px;
+
+    }
     .item-offering{
         font-size: 18px;
     }

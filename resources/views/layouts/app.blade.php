@@ -12,11 +12,14 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
     @yield('import')
     <title>{{trans('APP.title').'-'}}@yield('title-page','Home')</title>
 </head>
 <body>
-    <canvas class="background"></canvas>
+<canvas class="background"></canvas>
 @include('layouts.nav')
 @yield('content')
 @include('layouts.footer')
@@ -33,9 +36,15 @@
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
 <script src="/js/background.js"></script>
+<script src="/js/scrollUp.min.js"></script>
+<script src="/js/wow.min.js"></script>
 <script>
-    $(document).ready(function(){
-        $(window).scroll(function() {
+    $('#list-tab-our-customer a').on('click', function (e) {
+        e.preventDefault()
+        $(this).tab('show').userSelect
+    })
+    $(document).ready(function () {
+        $(window).scroll(function () {
             if ($(document).scrollTop() > 50) {
                 $(".navbar-fixed-top").css("background-color", "#333333");
             } else {
@@ -43,18 +52,16 @@
             }
         });
     });
+    wow = new WOW(
+        {
+            boxClass:     'wow',      // default
+            animateClass: 'animated', // default
+            offset:       0,          // default
+            mobile:       true,       // default
+            live:         true        // default
+        }
+    )
+    wow.init();
 </script>
-    <script>
-        $('#list-tab-Explore a').on('click', function (e) {
-            e.preventDefault()
-            $(this).tab('show').userSelect
-        })
-    </script>
-    <script>
-        $('#list-tab-our-customer a').on('click', function (e) {
-            e.preventDefault()
-            $(this).tab('show').userSelect
-        })
-    </script>
 </body>
 </html>

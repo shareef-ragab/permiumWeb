@@ -1,7 +1,6 @@
-<div class="container-fluid card-group mt-lg-5">
-    <div class="no-gutters mt-lg-5">
-        <div class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase"
-             style="font-size: 30px">{{trans('part-home/improve_innovate_trends.title')}}</div>
+<div class="container-fluid card-group mt-lg-5 ">
+    <div class="no-gutters mt-lg-5 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase">{{trans('part-home/improve_innovate_trends.title')}}</div>
         <div class="text-left ml-lg-5 mt-lg-n5 display-4"
              style="color: #FBD16B; border-color: #707070;opacity: 1">
             <span class="mt-lg-n5" style="border-color: #707070; text-shadow: #000000">__</span>
@@ -9,7 +8,7 @@
         <div class="text-left ml-lg-5 mt-lg-3 mr-lg-5 "
              style="font-size: 18px">{{trans('part-home/improve_innovate_trends.content')}}</div>
     </div>
-    <div class="col-lg-11 mx-auto mt-lg-5 mb-5 shadow">
+    <div class="col-lg-11 mx-auto mt-lg-5 mb-5 shadow wow fadeInLeft" data-wow-delay="1s" >
         <ul class="nav nav-pills mt-3" id="pills-tab" role="tablist">
             <li class="nav-item">
                 <a class="nav-link item-trends text-center ml-5 active" id="pills-trend-tab-1" data-toggle="pill" href="#item-trend-1" role="tab" aria-controls="pills-item-1" aria-selected="true">

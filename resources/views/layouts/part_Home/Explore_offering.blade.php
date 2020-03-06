@@ -1,14 +1,14 @@
 <!-- Explore our offering -->
-<div class="container-fluid card-group mt-lg-5  " style="background-color: #FAFAFA;border-color: #707070;">
-    <div class="no-gutters mt-lg-5">
-        <div class="text-left ml-lg-5 mb-lg-n3 font-weight-bold text-uppercase"
-             style="font-size: 30px">{{trans('part-home/Explore_offering.Explore_offering')}}</div>
+<div class="container-fluid card-group mt-lg-5 " style="background-color: #FAFAFA;border-color: #707070;">
+    <div class="no-gutters mt-lg-5 wow fadeInUp" data-wow-delay="0.6s">
+        <div
+            class="text-left ml-lg-5 mb-lg-n3 font-weight-bold text-uppercase">{{trans('part-home/Explore_offering.Explore_offering')}}</div>
         <div class="text-left ml-lg-5 mt-lg-n5 display-4"
              style="color: #FBD16B; border-color: #707070;opacity: 1">
             <span class="mt-lg-n5" style="border-color: #707070; text-shadow: #000000">__</span>
         </div>
     </div>
-    <div class="ml-lg-5 mt-lg-5">
+    <div class="ml-lg-5 mt-lg-5 wow fadeInLeft" data-wow-delay="0.9s">
         <div class="card-group m-lg-4 shadow" style="background-color: #FFFFFF;">
             <div class="list-group col-lg-4 mt-lg-n3 mb-lg-3 ml-lg-n5 " id="list-tab-Explore" role="tablist"
                  style="background-color: #333333;">
@@ -51,29 +51,33 @@
                     <div class="container-fluid card-group mt-lg-5">
                         <div class="no-gutters">
                             <div class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase"
-                                 style="font-size: 24px">{{trans('part-home/Explore_offering.title_offering_item1')}}</div>
+                            >{{trans('part-home/Explore_offering.title_offering_item1')}}</div>
                             <div class="text-left ml-lg-5 mt-lg-n5 display-4"
                                  style="color: #FBD16B; border-color: #707070;opacity: 1"><span class="mt-lg-n5"
                                                                                                 style="border-color: #707070; text-shadow: #000000">__</span>
                             </div>
-                            <div class="text-left ml-lg-5 mt-lg-2 "
-                                 style="font-size: 18px">{{trans('part-home/Explore_offering.content_offering_item1')}}</div>
+                            <div
+                                class="text-left ml-lg-5 mt-lg-2 ">{{trans('part-home/Explore_offering.content_offering_item1')}}</div>
                         </div>
                         <div class="card-deck no-gutters">
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item1-left-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item1-left-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item1-left-bottom')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item1-left-bottom')}}
                                 </div>
                             </div>
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item1-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item1-right-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item1-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item1-right-top')}}
                                 </div>
                             </div>
                         </div>
@@ -89,29 +93,33 @@
                     <div class="container-fluid card-group mt-lg-5">
                         <div class="no-gutters">
                             <div class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase"
-                                 style="font-size: 24px">{{trans('part-home/Explore_offering.title_offering_item3')}}</div>
+                            >{{trans('part-home/Explore_offering.title_offering_item3')}}</div>
                             <div class="text-left ml-lg-5 mt-lg-n5 display-4"
                                  style="color: #FBD16B; border-color: #707070;opacity: 1"><span class="mt-lg-n5"
                                                                                                 style="border-color: #707070; text-shadow: #000000">__</span>
                             </div>
                             <div class="text-left ml-lg-5 mt-lg-2 "
-                                 style="font-size: 18px">{{trans('part-home/Explore_offering.content_offering_item3')}}</div>
+                            >{{trans('part-home/Explore_offering.content_offering_item3')}}</div>
                         </div>
                         <div class="card-deck no-gutters">
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold  text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item3-left-top')}}
+                                <div class="m-lg-5 font-weight-bold  text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item3-left-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item3-left-bottom')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item3-left-bottom')}}
                                 </div>
                             </div>
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item3-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item3-right-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item3-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item3-right-top')}}
                                 </div>
                             </div>
                         </div>
@@ -126,30 +134,34 @@
                      aria-labelledby="list-item3-list">
                     <div class="container-fluid card-group mt-lg-5">
                         <div class="no-gutters">
-                            <div class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase"
-                                 style="font-size: 24px">{{trans('part-home/Explore_offering.title_offering_item4')}}</div>
+                            <div
+                                class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase">{{trans('part-home/Explore_offering.title_offering_item4')}}</div>
                             <div class="text-left ml-lg-5 mt-lg-n5 display-4"
                                  style="color: #FBD16B; border-color: #707070;opacity: 1"><span class="mt-lg-n5"
                                                                                                 style="border-color: #707070; text-shadow: #000000">__</span>
                             </div>
                             <div class="text-left ml-lg-5 mt-lg-2 "
-                                 style="font-size: 18px">{{trans('part-home/Explore_offering.content_offering_item4')}}</div>
+                            >{{trans('part-home/Explore_offering.content_offering_item4')}}</div>
                         </div>
                         <div class="card-deck no-gutters">
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item4-left-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item4-left-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item4-left-bottom')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item4-left-bottom')}}
                                 </div>
                             </div>
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item4-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item4-right-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item4-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item4-right-top')}}
                                 </div>
                             </div>
                         </div>
@@ -164,30 +176,34 @@
                      aria-labelledby="list-item4-list">
                     <div class="container-fluid card-group mt-lg-5">
                         <div class="no-gutters">
-                            <div class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase"
-                                 style="font-size: 24px">{{trans('part-home/Explore_offering.title_offering_item5')}}</div>
+                            <div
+                                class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase">{{trans('part-home/Explore_offering.title_offering_item5')}}</div>
                             <div class="text-left ml-lg-5 mt-lg-n5 display-4"
                                  style="color: #FBD16B; border-color: #707070;opacity: 1"><span class="mt-lg-n5"
                                                                                                 style="border-color: #707070; text-shadow: #000000">__</span>
                             </div>
                             <div class="text-left ml-lg-5 mt-lg-2 "
-                                 style="font-size: 18px">{{trans('part-home/Explore_offering.content_offering_item5')}}</div>
+                            >{{trans('part-home/Explore_offering.content_offering_item5')}}</div>
                         </div>
                         <div class="card-deck no-gutters">
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item5-left-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item5-left-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item5-left-bottom')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item5-left-bottom')}}
                                 </div>
                             </div>
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item5-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item5-right-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item5-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item5-right-top')}}
                                 </div>
                             </div>
                         </div>
@@ -203,29 +219,33 @@
                     <div class="container-fluid card-group mt-lg-5">
                         <div class="no-gutters">
                             <div class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase"
-                                 style="font-size: 24px">{{trans('part-home/Explore_offering.title_offering_item6')}}</div>
+                            >{{trans('part-home/Explore_offering.title_offering_item6')}}</div>
                             <div class="text-left ml-lg-5 mt-lg-n5 display-4"
                                  style="color: #FBD16B; border-color: #707070;opacity: 1"><span class="mt-lg-n5"
                                                                                                 style="border-color: #707070; text-shadow: #000000">__</span>
                             </div>
                             <div class="text-left ml-lg-5 mt-lg-2 "
-                                 style="font-size: 18px">{{trans('part-home/Explore_offering.content_offering_item6')}}</div>
+                            >{{trans('part-home/Explore_offering.content_offering_item6')}}</div>
                         </div>
                         <div class="card-deck no-gutters">
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item6-left-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item6-left-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item6-left-bottom')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item6-left-bottom')}}
                                 </div>
                             </div>
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item6-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item6-right-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item6-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item6-right-top')}}
                                 </div>
                             </div>
                         </div>
@@ -240,30 +260,34 @@
                      aria-labelledby="list-item6-list">
                     <div class="container-fluid card-group mt-lg-5">
                         <div class="no-gutters">
-                            <div class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase"
-                                 style="font-size: 24px">{{trans('part-home/Explore_offering.title_offering_item7')}}</div>
+                            <div
+                                class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase">{{trans('part-home/Explore_offering.title_offering_item7')}}</div>
                             <div class="text-left ml-lg-5 mt-lg-n5 display-4"
                                  style="color: #FBD16B; border-color: #707070;opacity: 1"><span class="mt-lg-n5"
                                                                                                 style="border-color: #707070; text-shadow: #000000">__</span>
                             </div>
                             <div class="text-left ml-lg-5 mt-lg-2 "
-                                 style="font-size: 18px">{{trans('part-home/Explore_offering.content_offering_item7')}}</div>
+                            >{{trans('part-home/Explore_offering.content_offering_item7')}}</div>
                         </div>
                         <div class="card-deck no-gutters">
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item7-left-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item7-left-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item7-left-bottom')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item7-left-bottom')}}
                                 </div>
                             </div>
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item7-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item7-right-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item7-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item7-right-top')}}
                                 </div>
                             </div>
                         </div>
@@ -279,29 +303,33 @@
                     <div class="container-fluid card-group mt-lg-5">
                         <div class="no-gutters">
                             <div class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase"
-                                 style="font-size: 24px">{{trans('part-home/Explore_offering.title_offering_item8')}}</div>
+                            >{{trans('part-home/Explore_offering.title_offering_item8')}}</div>
                             <div class="text-left ml-lg-5 mt-lg-n5 display-4"
                                  style="color: #FBD16B; border-color: #707070;opacity: 1"><span class="mt-lg-n5"
                                                                                                 style="border-color: #707070; text-shadow: #000000">__</span>
                             </div>
                             <div class="text-left ml-lg-5 mt-lg-2 "
-                                 style="font-size: 18px">{{trans('part-home/Explore_offering.content_offering_item8')}}</div>
+                            >{{trans('part-home/Explore_offering.content_offering_item8')}}</div>
                         </div>
                         <div class="card-deck no-gutters">
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item8-left-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item8-left-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item8-left-bottom')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item8-left-bottom')}}
                                 </div>
                             </div>
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item8-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item8-right-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item8-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item8-right-top')}}
                                 </div>
                             </div>
                         </div>
@@ -317,29 +345,33 @@
                     <div class="container-fluid card-group mt-lg-5">
                         <div class="no-gutters">
                             <div class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase"
-                                 style="font-size: 24px">{{trans('part-home/Explore_offering.title_offering_item2')}}</div>
+                            >{{trans('part-home/Explore_offering.title_offering_item2')}}</div>
                             <div class="text-left ml-lg-5 mt-lg-n5 display-4"
                                  style="color: #FBD16B; border-color: #707070;opacity: 1"><span class="mt-lg-n5"
                                                                                                 style="border-color: #707070; text-shadow: #000000">__</span>
                             </div>
                             <div class="text-left ml-lg-5 mt-lg-2 "
-                                 style="font-size: 18px">{{trans('part-home/Explore_offering.content_offering_item2')}}</div>
+                            >{{trans('part-home/Explore_offering.content_offering_item2')}}</div>
                         </div>
                         <div class="card-deck no-gutters">
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item2-left-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item2-left-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item2-left-bottom')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item2-left-bottom')}}
                                 </div>
                             </div>
                             <div class="ml-3">
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item2-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item2-right-top')}}
                                 </div>
-                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img class="m-lg-2"
-                                                                                                  src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item2-right-top')}}
+                                <div class="m-lg-5 font-weight-bold text-wrap" style="font-size: 18px"><img
+                                        class="m-lg-2"
+                                        src="/img/Rectangle 9.png"> {{trans('part-home/Explore_offering.list_offering_item2-right-top')}}
                                 </div>
                             </div>
                         </div>

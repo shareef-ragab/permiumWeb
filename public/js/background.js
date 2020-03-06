@@ -13,13 +13,14 @@ Particles.init({
         }, {
             breakpoint: 425,
             options: {
-                maxParticles: 100,
+                maxParticles: 50,
                 connectParticles: true
             }
         }, {
             breakpoint: 320,
             options: {
-                maxParticles: 50
+                maxParticles: 20,
+                connectParticles: true
             }
         }
     ]

@@ -3,31 +3,32 @@
 @import url('part-Home/success_stories.css');
 @import url('part-Home/improve_innovate_trends.css');
 @import url('part-Home/OUR_CUSTOMERS_SAY.css');
+
 .nav-opacity {
     opacity: 100%;
 }
 
-.mouse{
+.mouse {
     color: #FFF;
 }
 
-.mouse:hover{
+.mouse:hover {
     color: #FBD16B;
 }
 
-.mouse_contact{
+.mouse_contact {
     color: #000;
 }
 
-.mouse_contact:hover{
+.mouse_contact:hover {
     color: #FFF;
 }
 
-.mouse_contact_revert{
+.mouse_contact_revert {
     color: #FFF;
 }
 
-.mouse_contact_revert:hover{
+.mouse_contact_revert:hover {
     color: #000;
 }
 
@@ -39,48 +40,180 @@
     left: 0;
     right: 0;
     z-index: -1;
+
 }
 
 @media (max-width: 575.98px) {
-    .nav-home {
+    .nav-opacity {
+        background-color: #333333;
+        opacity: 80%;
     }
-    .card-manged{
+
+    .navbar-brand.ml-lg-5.img-fluid {
+        width: 60px;
+        height: 50px;
+    }
+
+    .text-uppercase.font-weight-bold.mx-auto.text-center.display-4 {
+        font-size: 1rem;
+    }
+
+    .text-left.ml-lg-5.mb-lg-n3.font-weight-bold.text-uppercase,
+    .text-left.ml-lg-5.mt-lg-n5.font-weight-bold.text-uppercase,
+    .text-left.ml-lg-5.mt-lg-5.font-weight-bold.text-uppercase.text-white,
+    .text-left.ml-lg-5.mt-lg-n3.font-weight-bold.text-uppercase,
+    .text-left.ml-lg-5 mt-lg-n5.font-weight-bold.text-uppercase {
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+    .text-left.ml-lg-5.mt-lg-n5.display-4 {
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+
+    .card-text.font-weight-bold {
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+    .card-title.text-md-center.col-12 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .card-title.font-weight-bold {
+        font-size: 5px;
+    }
+
+    .text-left.ml-lg-5.mt-lg-5.text-uppercase.font-weight-bold.mb-lg-5,
+    .pl-lg-5.pr-lg-5.pt-lg-2.pb-lg-2.mouse_contact_revert {
+        padding: 5% 10%;
+        font-size: 14px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 11%;
+    }
+
+    .no-gutters.mt-lg-5.mr-lg-5 {
+        margin: 10%;
+    }
+
+    .nav-home {
+        padding-top: 5rem !important;
+        font-size: 12px;
+    }
+
+    .card-manged {
+
+    }
+
+    .card-img-manged {
+
+    }
+
+    .card-link-manged {
 
     }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .nav-home {
+
+    }
+
+    .card-manged {
+
+    }
+
+    .card-img-manged {
+
+    }
+
+    .card-link-manged {
+
     }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .nav-home {
+
+    }
+
+    .card-manged {
+
+    }
+
+    .card-img-manged {
+
+    }
+
+    .card-link-manged {
+
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .text-uppercase.font-weight-bold.mx-auto.text-center.display-4 {
+        font-size: 2rem;
+    }
+
     .nav-home {
+        margin-top: 10rem !important;
+    }
+
+    .card-manged {
+
+    }
+
+    .card-img-manged {
+
+    }
+
+    .card-link-manged {
+
     }
 }
 
 @media (min-width: 1200px) {
+    .text-left.ml-lg-5.mb-lg-n3.font-weight-bold.text-uppercase,
+    .text-left.ml-lg-5.mt-lg-n5.font-weight-bold.text-uppercase,
+    .text-left.ml-lg-5.mt-lg-5.font-weight-bold.text-uppercase.text-white,
+    .text-left.ml-lg-5.mt-lg-n3.font-weight-bold.text-uppercase {
+        font-size: 30px;
+    }
+
+    .text-wrap.text-white{
+        font-size:14px;
+    }
+
+    .card-text.font-weight-bold {
+        font-size: 24px;
+    }
+
+    .card-title.font-weight-bold {
+        font-size: 14px;
+    }
+
     .nav-home {
         margin-top: 10rem !important;
     }
-    .card-manged{
+
+    .card-manged {
         margin-top: 8rem;
         margin-bottom: 5rem;
-        width:1145px ;
+        width: 1145px;
         height: 372px;
     }
-    .card-img-manged{
-        width:500px ;
+
+    .card-img-manged {
+        width: 500px;
         height: 373px;
         margin-top: -5rem;
-        margin-left:-3rem;
+        margin-left: -3rem;
     }
-    .card-link-manged{
+
+    .card-link-manged {
         margin-top: 5rem;
     }
 }

@@ -119,21 +119,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Ampps\www\premiumWeb\resources\lang\en\part-home" />
+      <recent name="C:\Ampps\www\premiumWeb\resources\views\layouts\part_Home" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\premiumWeb\public\img" />
       <recent name="C:\Ampps\www\premiumWeb\public\img" />
       <recent name="C:\Ampps\www\premiumWeb\public\css\part-Home" />
       <recent name="C:\Ampps\www\premiumWeb\public\js" />
       <recent name="C:\Ampps\www\premiumWeb\resources\lang\ar" />
-      <recent name="C:\Ampps\www\premiumWeb\resources\lang\en" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Ampps\www\premiumWeb\resources\lang\en\part-home" />
-      <recent name="C:\Ampps\www\premiumWeb\resources\views\layouts\part_Home" />
     </key>
   </component>
   <component name="RunManager">
@@ -176,6 +176,7 @@
       <workItem from="1583135843328" duration="15586000" />
       <workItem from="1583159239498" duration="596000" />
       <workItem from="1583256820016" duration="92000" />
+      <workItem from="1583393778700" duration="24628000" />
     </task>
     <servers />
   </component>
@@ -206,6 +207,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1582458729648" />
+    <state x="367" y="38" width="646" height="692" key="#phpunit.xml" timestamp="1583414243485">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="367" y="38" width="646" height="692" key="#phpunit.xml/0.0.1366.768@0.0.1366.768" timestamp="1583414243485" />
     <state x="463" y="111" key="FileChooserDialogImpl" timestamp="1583143199671">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -221,24 +226,26 @@
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582195972036" />
     <state x="184" y="6" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1582792901097" />
     <state x="184" y="6" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583162747699" />
-    <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582534876017">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="92" y="96" width="1182" height="577" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583418105424">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1582534876017" />
-    <state x="384" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1583256902820">
+    <state x="92" y="96" width="1182" height="577" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1583418105424" />
+    <state x="384" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1583393777712">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="384" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582450157794" />
     <state x="384" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1583135877453" />
-    <state x="384" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583256902820" />
+    <state x="384" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583393777712" />
     <state x="339" y="164" key="run.anything.popup" timestamp="1582535962076">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582451508624" />
     <state x="339" y="164" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1582535962076" />
-    <state x="346" y="59" key="search.everywhere.popup" timestamp="1582554260284">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="346" y="61" width="672" height="678" key="search.everywhere.popup" timestamp="1583416138548">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="346" y="59" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1582554260284" />
+    <state x="346" y="61" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1583416138548" />
   </component>
 </project>
