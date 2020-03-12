@@ -22,7 +22,9 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
+    .background{
+        margin-top: -570px ;
+    }
     .nav-service{
         margin-top: 1rem !important;
     }
@@ -30,7 +32,7 @@
 
 @media (min-width: 1200px) {
     .background{
-        margin-top: -40%;
+        margin-top: -570px ;
     }
     .nav-service{
         margin-top: 8rem !important;
