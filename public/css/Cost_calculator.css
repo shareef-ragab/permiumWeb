@@ -1,0 +1,35 @@
+@import url('part-service/Tell_us_project.css');
+@import url('part-service/our-service.css');
+@import url('part-service/get_started.css');
+
+
+@media (max-width: 575.98px) {
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .background{
+        margin-top: -50%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .background{
+        margin-top: -50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .background{
+        margin-top: -40%;
+    }
+    .nav-Cost{
+        margin-top: 8rem !important;
+    }
+}
+
+

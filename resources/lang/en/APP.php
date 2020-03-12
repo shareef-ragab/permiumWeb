@@ -16,6 +16,10 @@ return [
     'link-card-center'=>'Go somewhere',
     'link-card-right'=>'Go somewhere',
     'need_consultation'=>'need a consultation?',
+    'about'=>'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                    duo
+                    dolores et ea rebum. Stet clita kasd gubergren, no sea takimata',
     'Drop_line'=>'Drop us a line! We are here to answer your question 24/7. ',
     'get_with_us'=>'get in touch with us',
     'Press_inquires'=>'Press inquires',

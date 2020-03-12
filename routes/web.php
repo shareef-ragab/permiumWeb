@@ -11,10 +11,21 @@
 |
 */
 
-Route::get('/', function () {
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Session;
+
+Route::get('/', array('as'=>'home','uses'=>function () {
     return view('welcome');
-});
-Route::post('local/{local}',function($local){
+}));
+Route::post('local',array("as" => 'local','uses'=>function(Request $request){
+    $local= $request->input('lang');
     Session::put('local', $local);
-    redirect()->back();
-});
+   return redirect()->back();
+})
+);
+Route::get('/service', array('as' => 'service','uses' => 'service@index'));
+Route::post('/send_service', array('as' => 'send_service','uses' => 'service@send_service'));
+Route::get('/COST_CALCULATOR', array('as' => 'COST_CALCULATOR','uses' => 'COST_CALCULATOR@index'));
+Route::post('/CALCULATE', array('as' => 'CALCULATE','uses' => 'COST_CALCULATOR@CALCULATE'));

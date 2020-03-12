@@ -3,9 +3,10 @@
 return [
 
     'home'=>'الصفحة الرئيسية',
-    'services'=>'الخدمات',
-    'about_us'=>'عنا',
-    'portfolio'=>'تصنيف',
-    'blog'=>'المدونة',
-    'contact_us'=>'إتصل بنا',
+    'services'=>'خدمات',
+    'about_us'=>'معلومات عنا',
+    'portfolio'=>'محفظة',
+    'COST_CALCULATOR'=>'حساب السعر',
+    'blog'=>'مدونة',
+    'contact_us'=>'اتصل بنا',
 ];

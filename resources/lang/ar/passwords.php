@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'password' => 'يجب أن تتكون كلمات المرور من ثمانية أحرف على الأقل وأن تطابق التأكيد.',
-    'reset' => 'تم إعادة تعيين كلمة المرور الخاصة بك!',
-    'sent' => 'لقد أرسلنا رابط إعادة تعيين كلمة المرور عبر البريد الإلكتروني!',
-    'token' => 'الرمز المميز لإعادة تعيين كلمة المرور غير صالح.',
-    'user' => "لا يمكننا العثور على مستخدم يحمل عنوان البريد الإلكتروني هذا.",
+    'password' => 'Passwords must be at least eight characters and match the confirmation.',
+    'reset' => 'Your password has been reset!',
+    'sent' => 'We have e-mailed your password reset link!',
+    'token' => 'This password reset token is invalid.',
+    'user' => "We can't find a user with that e-mail address.",
 
 ];

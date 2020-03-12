@@ -19,7 +19,6 @@
     <title>{{trans('APP.title').'-'}}@yield('title-page','Home')</title>
 </head>
 <body>
-<canvas class="background"></canvas>
 @include('layouts.nav')
 @yield('content')
 @include('layouts.footer')
@@ -45,10 +44,13 @@
     })
     $(document).ready(function () {
         $(window).scroll(function () {
+           /* var navbar = document.getElementById('navberContent');*/
             if ($(document).scrollTop() > 50) {
                 $(".navbar-fixed-top").css("background-color", "#333333");
+              /*  navbar.classList.add('background');*/
             } else {
                 $(".navbar-fixed-top").css("background-color", "transparent");
+                /*navbar.classList.remove('background');*/
             }
         });
     });
@@ -62,6 +64,10 @@
         }
     )
     wow.init();
+    /*$( "#inlineFormCustomSelect" ).item(function() {
+        $( "#langForm" ).submit();
+    });*/
+
 </script>
 </body>
 </html>

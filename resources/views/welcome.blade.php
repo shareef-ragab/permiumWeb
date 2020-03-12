@@ -4,7 +4,7 @@
 @endsection
 
 @section('content')
-    <div class="nav-home overlay">
+    <div class="nav-home">
         <div class="text-uppercase font-weight-bold mx-auto text-center display-4 wow fadeInUp"data-wow-delay="0.2s"
              style="color: #FBD16B">{{trans('APP.header-title-one')}}</div>
         <div class="text-uppercase font-weight-bold mx-auto text-center display-4 wow fadeInUp"data-wow-delay="0.4s"
@@ -72,10 +72,7 @@
         </div>
         <!-- about -->
             <div class="col-sm-6 mt-lg-5 text-md-center text-center mx-auto m-5 wow fadeInUp"data-wow-delay="0.5s">
-                <p class="text ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                    duo
-                    dolores et ea rebum. Stet clita kasd gubergren, no sea takimata</p>
+                <p class="text ">{{trans('APP.about')}}</p>
             </div>
         <!-- -->
         <div class="card-group col-lg-12 mx-lg-auto mt-lg-5 mb-lg-5 wow fadeInUp"data-wow-delay="0.7s">

@@ -1,0 +1,40 @@
+@import url('part-service/our-service.css');
+@import url('part-service/our_clients.css');
+@import url('part-service/get_started.css');
+
+
+@media (max-width: 575.98px) {
+    .nav-service{
+        margin-top: 1rem !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nav-service{
+        margin-top: 1rem !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .nav-service{
+        margin-top: 1rem !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .nav-service{
+        margin-top: 1rem !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .background{
+        margin-top: -40%;
+    }
+    .nav-service{
+        margin-top: 8rem !important;
+    }
+}
+
+
