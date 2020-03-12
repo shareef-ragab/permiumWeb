@@ -1,4 +1,4 @@
-<div class="container-fluid card-group mt-lg-5 mb-lg-5 text-center" style="background-color: #FAFAFA;border-color: #707070;">
+<div class="container-fluid card-group mt-lg-5 mb-lg-5 text-center" style="background-color: #FAFAFA;border-color: #707070;" >
     <div class="m-lg-3 font-weight-bold size-title text-uppercase mx-auto text-center col-lg-11 wow fadeInDownBig" data-wow-delay="0.6s">{{trans('part-service/our-serivce.title')}}</div>
     <div class="card-deck m-lg-1 col-lg-11">
         <div class="card col-lg-4 m-1 shadow wow fadeInLeftBig" data-wow-delay="0.6s" style="background-color: #333333; border: none; border-radius: 0">

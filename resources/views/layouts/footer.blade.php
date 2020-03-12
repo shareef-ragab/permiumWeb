@@ -1,4 +1,4 @@
-<footer class="footer mt-auto py-3" style="background-color: #333333">
+<footer class="footer mt-auto py-3" style="background-color: #333333" >
     <div class="container mx-auto col-sm-11">
         <div class="card-deck mx-auto mt-auto col-sm-12">
             <div class="no-gutters col-sm-1 wow fadeInUp mt-sm-4" data-wow-delay="0.6s"
@@ -64,7 +64,11 @@
             <div class="ml-lg-auto mt-sm-4 no-gutters ml-lg-n5 wow fadeInRight " data-wow-delay="1.5s"
                  style="background-color: #333333;border: none">
                 {!! Form::open(['route' => 'local', 'method' => 'post','id'=>'langForm']) !!}
-                {!! Form::select('lang', array('en'=>'English','ar'=>'Arabic') , null , ['class' => 'custom-select-sm mr-sm-2 text-white','style'=>'background-color:  #333333;border: none; font-size:14px;','onchange'=>'submit()']) !!}
+                @if(app()->getLocale()=='ar')
+                    {!! Form::select('lang', array('ar'=>'Arabic','en'=>'English') , null , ['class' => 'custom-select-sm mr-sm-2 text-white','style'=>'background-color:  #333333;border: none; font-size:14px;','onchange'=>'submit()']) !!}
+                @else
+                    {!! Form::select('lang', array('en'=>'English','ar'=>'Arabic') , null , ['class' => 'custom-select-sm mr-sm-2 text-white','style'=>'background-color:  #333333;border: none; font-size:14px;','onchange'=>'submit()']) !!}
+                @endif
                 {!! Form::close() !!}
             </div>
         </div>

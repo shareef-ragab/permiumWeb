@@ -4,7 +4,7 @@
 @endsection
 
 @section('content')
-    <div class="nav-home">
+    <div class="nav-home" >
         <div class="text-uppercase font-weight-bold mx-auto text-center display-4 wow fadeInUp"data-wow-delay="0.2s"
              style="color: #FBD16B">{{trans('APP.header-title-one')}}</div>
         <div class="text-uppercase font-weight-bold mx-auto text-center display-4 wow fadeInUp"data-wow-delay="0.4s"

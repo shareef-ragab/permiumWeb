@@ -4,7 +4,7 @@
 @endsection
 @section('content')
 @section('classes-background','')
-<div class="nav-service">
+<div class="nav-service" >
     <div class="m-lg-5 col-lg-11">
         <div class="col-7 display-4 mt-5 font-weight-bold wow fadeInLeft" data-wow-delay="0.6s">
             {{trans('part-service/serivce.title')}}

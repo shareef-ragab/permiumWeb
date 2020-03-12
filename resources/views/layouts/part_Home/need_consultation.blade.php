@@ -1,5 +1,5 @@
 <!-- need a consultation-->
-<div class="container-fluid card-group mt-lg-5">
+<div class="container-fluid card-group mt-lg-5" >
     <div class="no-gutters ">
         <div class="text-left ml-lg-5 mt-lg-n3 font-weight-bold text-uppercase wow fadeInLeft" data-wow-delay="0.4s">{{trans('APP.need_consultation')}}</div>
         <div class="text-left ml-lg-5 mt-lg-n5 display-4 wow fadeInLeft" data-wow-delay="0.5s"

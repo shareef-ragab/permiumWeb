@@ -1,4 +1,4 @@
-<div class="card container card-manged" style="border: none;background-color: #FAFAFA">
+<div class="card container card-manged"  style="border: none;background-color: #FAFAFA">
     <div class="row no-gutters mt-lg-5">
         <div class="col-md-4 shadow card-img-manged wow fadeInLeft" data-wow-delay="0.4s">
             <img src="/img/Group 243@2x.png" class="card-img " alt="...">

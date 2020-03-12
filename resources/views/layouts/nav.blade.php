@@ -1,5 +1,5 @@
 <canvas class="background "></canvas>
-<nav class="navbar-fixed-top wgl-header-row_wrapper navbar navbar-expand-lg  nav-opacity fixed-top  @if(app()->getLocale()=='ar') dir='ltr' @endif">
+<nav class="navbar-fixed-top wgl-header-row_wrapper navbar navbar-expand-lg  nav-opacity fixed-top " @if(app()->getLocale()=='ar') dir='rtl' @endif>
     <img class="navbar-brand ml-lg-5 img-fluid"  src="/img/logo%20gold2@2x.png">
     <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "><img src="/img/Nav.png" class="img-fluid small"></span>

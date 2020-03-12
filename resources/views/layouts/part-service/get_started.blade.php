@@ -1,4 +1,4 @@
-<div class="container m-lg-5">
+<div class="container m-lg-5" >
     <div class="get_started card-group col-12 " style="background-color: #333333">
         <div class="card col-lg-8" style="background-color: #333333;border: none">
             <div class="card-body">

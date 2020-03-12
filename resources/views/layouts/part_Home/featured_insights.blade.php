@@ -1,5 +1,5 @@
 <!-- featured insights -->
-<div class="container-fluid card-group  mt-lg-5  mx-auto "
+<div class="container-fluid card-group  mt-lg-5  mx-auto " @if(app()->getLocale()=='ar') dir='rtl' @endif
      style="background-color: #FAFAFA;border-color: #707070;">
     <div class="no-gutters mt-lg-5">
         <div class="text-left ml-lg-5 mb-lg-n3 font-weight-bold text-uppercase wow fadeInLeft" data-wow-delay="0.4s">{{trans('APP.featured_insights')}}</div>

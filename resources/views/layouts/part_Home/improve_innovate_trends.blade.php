@@ -1,4 +1,4 @@
-<div class="container-fluid card-group mt-lg-5 ">
+<div class="container-fluid card-group mt-lg-5 " @if(app()->getLocale()=='ar') dir='rtl' @endif>
     <div class="no-gutters mt-lg-5 wow fadeInUp" data-wow-delay="0.4s">
         <div class="text-left ml-lg-5 mt-lg-n5 font-weight-bold text-uppercase">{{trans('part-home/improve_innovate_trends.title')}}</div>
         <div class="text-left ml-lg-5 mt-lg-n5 display-4"
