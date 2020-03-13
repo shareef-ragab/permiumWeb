@@ -1,5 +1,5 @@
 <!-- Explore our offering -->
-<div class="container-fluid card-group mt-lg-5 " @if(app()->getLocale()=='ar') dir='rtl' @endif style="background-color: #FAFAFA;border-color: #707070;">
+<div class="container-fluid card-group mt-lg-5 " style="background-color: #FAFAFA;border-color: #707070;">
     <div class="no-gutters mt-lg-5 wow fadeInUp" data-wow-delay="0.6s">
         <div
             class="text-left ml-lg-5 mb-lg-n3 font-weight-bold text-uppercase">{{trans('part-home/Explore_offering.Explore_offering')}}</div>
