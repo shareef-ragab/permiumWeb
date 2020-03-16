@@ -79,5 +79,23 @@ class content_static extends Seeder
         DB::insert("INSERT INTO content_static(ID,content)VALUES(\"title_content\",\"LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING ELITR, SED DIAM NONUMY EIRMOD TEMPOR INVIDUNT UT\")");
         DB::insert("INSERT INTO content_static(ID,content)VALUES(\"trends-content\",\"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut\")");
         DB::insert("INSERT INTO content_static(ID,content)VALUES(\"twitter-link\",\"#\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"content-cost\",\"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"content-sevice\",\"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"content-get-starr\",\"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"count-client\",\"100\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"count-Operation\",\"10\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"service-card-1-image\",\"#\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"service-card-1-title\",\"Software Development Outsourcing\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"service-card-2-image\",\"#\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"service-card-2-title\",\"Software Development Outsourcing\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"service-card-3-image\",\"#\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"service-card-3-title\",\"Software Development Outsourcing\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"service-card-4-image\",\"#\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"service-card-4-title\",\"Software Development Outsourcing\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"service-card-5-image\",\"#\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"service-card-5-title\",\"Software Development Outsourcing\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"service-card-custom-content\",\"#\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"service-card-custom-title\",\"Software Development Outsourcing\")");
+        DB::insert("INSERT INTO content_static(ID,content)VALUES(\"service-card-custom-link\",\"#\")");
     }
 }

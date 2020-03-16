@@ -3,7 +3,7 @@
     <div class=" m-lg-1 col-lg-12">
         <div class="card-deck mb-3">
             <div class="card col-lg-4 shadow wow fadeInLeftBig" data-wow-delay="0.6s" style="background-color: #333333; border: none; border-radius: 0">
-                <div class="card-body custom">
+                <div class="card-body custom ">
                     <div class="card-title font-weight-bold col-lg-11 text-left size-card-custom-title "
                          style="color: #FBD16B">{{trans('part-service/our-serivce.card-custom-title-1')}}</div>
                     <div class="card-text text-white col-lg-12 mt-4 text-left " >
@@ -18,13 +18,13 @@
             <div class="card col-lg-4 shadow wow fadeInLeftBig" data-wow-delay="0.8s">
                 <div class="card-body">
                     <img class="row-cols-2 card-img img-fluid" src="/img/Group 243@2x.png">
-                    <div class="card-title font-weight-bold card-title-our-service">{{trans('part-service/our-serivce.card-title-2')}}</div>
+                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{trans('part-service/our-serivce.card-title-2')}}</div>
                 </div>
             </div>
             <div class="card col-lg-4 shadow wow fadeInLeftBig" data-wow-delay="1s">
                 <div class="card-body">
                     <img class="card-img img-fluid" src="/img/Group 243@2x.png">
-                    <div class="card-title font-weight-bold card-title-our-service">{{trans('part-service/our-serivce.card-title-3')}}</div>
+                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{trans('part-service/our-serivce.card-title-3')}}</div>
                 </div>
             </div>
         </div>
@@ -32,19 +32,19 @@
             <div class="card col-lg-4 shadow wow fadeInLeftBig" data-wow-delay="1.2s">
                 <div class="card-body">
                     <img class="card-img img-fluid" src="/img/Group 243@2x.png">
-                    <div class="card-title font-weight-bold card-title-our-service">{{trans('part-service/our-serivce.card-title-4')}}</div>
+                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{trans('part-service/our-serivce.card-title-4')}}</div>
                 </div>
             </div>
             <div class="card col-lg-4 shadow wow fadeInLeftBig" data-wow-delay="1.4s">
                 <div class="card-body">
                     <img class="card-img img-fluid" src="/img/Group 243@2x.png">
-                    <div class="card-title font-weight-bold card-title-our-service">{{trans('part-service/our-serivce.card-title-5')}}</div>
+                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{trans('part-service/our-serivce.card-title-5')}}</div>
                 </div>
             </div>
             <div class="card col-lg-4 shadow wow fadeInLeftBig" data-wow-delay="1.6s">
                 <div class="card-body">
                     <img class="card-img img-fluid" src="/img/Group 243@2x.png">
-                    <div class="card-title font-weight-bold card-title-our-service">{{trans('part-service/our-serivce.card-title-6')}}</div>
+                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{trans('part-service/our-serivce.card-title-6')}}</div>
                 </div>
             </div>
         </div>
