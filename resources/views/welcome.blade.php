@@ -5,14 +5,14 @@
 
 @section('content')
     <div class="nav-home" >
-        <div class="text-uppercase font-weight-bold mx-auto text-center display-4 wow fadeInUp"data-wow-delay="0.2s"
+        <div class="text-uppercase font-weight-bold mx-auto text-center display-4 wow fadeInUp" data-wow-delay="0.2s"
              style="color: #FBD16B">{{trans('APP.header-title-one')}}</div>
-        <div class="text-uppercase font-weight-bold mx-auto text-center display-4 wow fadeInUp"data-wow-delay="0.4s"
+        <div class="text-uppercase font-weight-bold mx-auto text-center display-4 wow fadeInUp" data-wow-delay="0.4s"
              style="color: #FBD16B">{{trans('APP.header-title-two')}}</div>
         <div class="mx-auto text-center display-4 mt-n5 wow fadeInUp"data-wow-delay="0.5s" style="color: #FBD16B; border-color: #707070;opacity: 1">
             <span style="border-color: #707070; text-shadow: #000000">___</span>
         </div>
-        <div class="text-uppercase mx-auto text-center text-white mt-md-5 wow fadeInUp"data-wow-delay="0.6s">{{trans('APP.header-small')}}</div>
+        <div class="text-uppercase mx-auto text-center text-white mt-md-5 wow fadeInUp" data-wow-delay="0.6s">{{trans('APP.header-small')}}</div>
         <!-- card header-->
         <div class=" row m-5 mt-lg-5 " >
             <div class="col-sm-4 mb-3 wow fadeInLeft"data-wow-delay="0.7s" style="border-color: #707070; box-shadow: #1b1e21">
@@ -71,11 +71,11 @@
             </div>
         </div>
         <!-- about -->
-            <div class="col-sm-6 mt-lg-5 text-md-center text-center mx-auto m-5 wow fadeInUp"data-wow-delay="0.5s">
+            <div class="col-sm-6 mt-lg-5 text-md-center text-center mx-auto m-5 wow fadeInUp" data-wow-delay="0.5s">
                 <p class="text ">{{trans('APP.about')}}</p>
             </div>
         <!-- -->
-        <div class="card-group col-lg-12 mx-lg-auto mt-lg-5 mb-lg-5 wow fadeInUp"data-wow-delay="0.7s">
+        <div class="card-group col-lg-12 mx-lg-auto mt-lg-5 mb-lg-5 wow fadeInUp" data-wow-delay="0.7s">
             <div class="no-gutters col-lg-2 m-3 mx-auto ml-lg-auto">
                 <img src="/img/asset.png" class="img-fluid">
             </div>

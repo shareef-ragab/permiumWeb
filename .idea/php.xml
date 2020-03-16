@@ -85,6 +85,19 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/confrariaweb/laravel-template-admin-metronic" />
+      <path value="$PROJECT_DIR$/vendor/zacksleo/metronic" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-krajee-base" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-grid" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-dialog" />
+      <path value="$PROJECT_DIR$/vendor/dlds/yii2-metronic" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/jquery" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-composer" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/jquery-pjax" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/vendor/raalveco/scaffolding" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
