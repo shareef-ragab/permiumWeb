@@ -58,6 +58,7 @@
         Index.initChat();
         Index.initMiniCharts();
         Tasks.initDashboardWidget();
+
     });
 </script>
 <!-- END JAVASCRIPTS -->

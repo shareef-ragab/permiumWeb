@@ -19,14 +19,16 @@ class Profile extends Controller
 
     public function login_user()
     {
-        if (!session()->has('user')) {
-            $user = DB::table('users')
-                ->where('email', Input::input("email"))
-                ->where('password', Input::input("password"))
-                ->first();
+        $user = DB::table('users')
+            ->where('email', Input::input("email"))
+            ->where('password', Input::input("password"))
+            ->first();
+        if ($user !== null) {
             session()->put('user', $user);
+            return redirect('Dashboard');
+        } else {
+            return redirect('/');
         }
-        return redirect('Dashboard');
     }
 
     public function lock()
@@ -36,7 +38,7 @@ class Profile extends Controller
 
     public function unlock()
     {
-        if(session()->get('user')->password===Input::input('password'))
+        if (session()->get('user')->password === Input::input('password'))
             return redirect()->route('Dashboard')->with('user', session()->get('user'));
         else
             return redirect()->back();
