@@ -11,6 +11,7 @@ class CustomersSay extends Migration
     {
         Schema::create('customers_say', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('name');
             $table->string('job');
             $table->text('content');
             $table->string('image');

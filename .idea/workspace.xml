@@ -187,12 +187,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:premium_web@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -232,6 +227,7 @@
       <workItem from="1584112013176" duration="59000" />
       <workItem from="1584261763416" duration="25444000" />
       <workItem from="1584348838954" duration="18847000" />
+      <workItem from="1584434916089" duration="24338000" />
     </task>
     <servers />
   </component>
@@ -283,35 +279,35 @@
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1582458729648" />
     <state x="413" y="121" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1584266732678" />
-    <state x="413" y="138" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584285125430">
+    <state x="413" y="138" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584452819417">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="413" y="138" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1584285125430" />
+    <state x="413" y="138" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1584452819417" />
     <state x="367" y="38" width="646" height="692" key="#phpunit.xml" timestamp="1583414243485">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="367" y="38" width="646" height="692" key="#phpunit.xml/0.0.1366.768@0.0.1366.768" timestamp="1583414243485" />
-    <state x="497" y="272" key="ComposerDumpAutoloadDialog" timestamp="1584371237944">
+    <state x="497" y="272" key="ComposerDumpAutoloadDialog" timestamp="1584456056786">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="497" y="272" key="ComposerDumpAutoloadDialog/0.0.1366.768@0.0.1366.768" timestamp="1584371237944" />
+    <state x="497" y="272" key="ComposerDumpAutoloadDialog/0.0.1366.768@0.0.1366.768" timestamp="1584456056786" />
     <state x="523" y="296" key="ComposerInitDialogKey" timestamp="1583854787325">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="523" y="296" key="ComposerInitDialogKey/0.0.1366.768@0.0.1366.768" timestamp="1583854787325" />
-    <state x="511" y="359" key="Create Controller" timestamp="1584285103070">
+    <state x="511" y="359" key="Create Controller" timestamp="1584436275016">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="389" y="281" key="Create Controller/0.0.1366.738@0.0.1366.738" timestamp="1583838972549" />
-    <state x="511" y="359" key="Create Controller/0.0.1366.768@0.0.1366.768" timestamp="1584285103070" />
+    <state x="511" y="359" key="Create Controller/0.0.1366.768@0.0.1366.768" timestamp="1584436275016" />
     <state x="557" y="266" key="Create Database Migration" timestamp="1584365045045">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="557" y="266" key="Create Database Migration/0.0.1366.768@0.0.1366.768" timestamp="1584365045045" />
-    <state x="557" y="307" key="Create Database Seeder" timestamp="1584366617427">
+    <state x="557" y="307" key="Create Database Seeder" timestamp="1584455531039">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="557" y="307" key="Create Database Seeder/0.0.1366.768@0.0.1366.768" timestamp="1584366617427" />
+    <state x="557" y="307" key="Create Database Seeder/0.0.1366.768@0.0.1366.768" timestamp="1584455531039" />
     <state x="526" y="278" key="Create Middleware" timestamp="1584350918848">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -349,22 +345,22 @@
     </state>
     <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1582534876017" />
     <state x="92" y="96" width="1182" height="577" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1584351055109" />
-    <state x="92" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1584008652170">
+    <state x="92" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1584461245412">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="92" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1584008652170" />
-    <state x="384" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1584348836423">
+    <state x="92" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1584461245412" />
+    <state x="384" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1584434937006">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="384" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582450157794" />
     <state x="384" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1583831045791" />
-    <state x="384" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584348836423" />
-    <state x="339" y="171" key="run.anything.popup" timestamp="1583855197330">
+    <state x="384" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584434937006" />
+    <state x="339" y="171" key="run.anything.popup" timestamp="1584442538182">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582451508624" />
     <state x="339" y="164" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1582535962076" />
-    <state x="339" y="171" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1583855197330" />
+    <state x="339" y="171" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1584442538182" />
     <state x="346" y="61" width="672" height="678" key="search.everywhere.popup" timestamp="1583416138548">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

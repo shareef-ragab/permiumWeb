@@ -11,7 +11,7 @@
                 </div>
                 <div class="no-gutters col-sm-8 wow fadeInDown " data-wow-delay="1s">
                     <p class="text-wrap text-white ">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+                        {{$address[0]->content}}</p>
                 </div>
             </div>
             <div class="card-deck no-gutters col-sm-2 mx-auto mt-sm-4" style="background-color: #333333;border: none">
@@ -19,7 +19,7 @@
                     <img class="img-fluid small " src="/img/local_phone.png">
                 </div>
                 <div class="no-gutters col-sm-8 wow fadeInDown " data-wow-delay="1s">
-                    <p class="text-wrap text-white "> (648)192-2454</p>
+                    <p class="text-wrap text-white "> {{$phone[0]->content}}</p>
                 </div>
             </div>
             <div class="card-deck no-gutters col-sm-3 mx-auto mt-sm-4" style="background-color: #333333;border: none">
@@ -27,18 +27,18 @@
                     <img class="img-fluid small" src="/img/email.png">
                 </div>
                 <div class="no-gutters col-sm-8 wow fadeInDown " data-wow-delay="1s">
-                    <p class="text-wrap text-white"> tyler.freeman@mail.com</p>
+                    <p class="text-wrap text-white"> {{$email[0]->content}}</p>
                 </div>
             </div>
             <div class="card-deck no-gutters col-sm-2 mx-auto mt-sm-4" style="background-color: #333333;border: none">
                 <div class="no-gutters col-sm-4 wow fadeInLeft " data-wow-delay="0.8s">
-                    <a><img class="img-fluid small" src="/img/linkedin-in.png"></a>
+                    <a href="{{$linkedin_link[0]->content}}"><img class="img-fluid small" src="/img/linkedin-in.png"></a>
                 </div>
                 <div class="no-gutters col-sm-4 wow fadeInDown " data-wow-delay="0.8s">
-                    <a><img class="img-fluid small" src="/img/facebook-f.png"></a>
+                    <a href="{{$facebook_link[0]->content}}"><img class="img-fluid small" src="/img/facebook-f.png"></a>
                 </div>
                 <div class="no-gutters col-sm-4 wow fadeInRight " data-wow-delay="0.8s">
-                    <a><img class="img-fluid small" src="/img/twitter.png"></a>
+                    <a href="{{$twitter_link[0]->content}}"><img class="img-fluid small" src="/img/twitter.png"></a>
                 </div>
             </div>
         </div>

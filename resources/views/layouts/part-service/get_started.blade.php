@@ -4,12 +4,12 @@
             <div class="card-body">
                 <div class="card-title font-weight-bold size-title-getStarted text-uppercase wow fadeInLeft" data-wow-delay="0.6s"
                      style="color: #FBD16B">{{trans('part-service/get_started.title')}}</div>
-                <div class="card-text text-white col-10 mt-lg-5 wow fadeInLeft" data-wow-delay="0.7s">{{trans('part-service/get_started.content')}}</div>
+                <div class="card-text text-white col-10 mt-lg-5 wow fadeInLeft" data-wow-delay="0.7s">{{$content_get_starr[0]->content}}</div>
                 <div class="card-group mx-auto col-12 mt-5">
                     <div class="card mx-auto text-center no-gutters col-4 mr-lg-n3" style="background-color: #333333;border: none">
                         <div class="card-body text-center">
                             <div class="card-title font-weight-bold wow fadeInUp" data-wow-delay="0.8s"
-                                 style="color: #FBD16B">{{trans('part-service/get_started.count-year')}}</div>
+                                 style="color: #FBD16B">{{$count_Operation[0]->content}}</div>
                             <div class="card-text font-weight-bold wow fadeInUp" data-wow-delay="1s"
                                  style="color: #FBD16B">{{trans('part-service/get_started.title-year')}}
                             </div>
@@ -18,7 +18,7 @@
                     <div class="card mx-auto text-center no-gutters col-4 ml-lg-n3" style="background-color: #333333;border: none">
                         <div class="card-body text-center">
                             <div class="card-title font-weight-bold wow fadeInUp" data-wow-delay="0.8s"
-                                 style="color: #FBD16B">{{trans('part-service/get_started.count-clint')}}</div>
+                                 style="color: #FBD16B">{{$count_client[0]->content}}</div>
                             <div class="card-text font-weight-bold m-1 wow fadeInUp" data-wow-delay="1s"
                                  style="color: #FBD16B">{{trans('part-service/get_started.title-client')}}
                             </div>

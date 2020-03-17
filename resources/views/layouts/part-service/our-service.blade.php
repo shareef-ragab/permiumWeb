@@ -5,46 +5,46 @@
             <div class="card col-lg-4 shadow wow fadeInLeftBig" data-wow-delay="0.6s" style="background-color: #333333; border: none; border-radius: 0">
                 <div class="card-body custom ">
                     <div class="card-title font-weight-bold col-lg-11 text-left size-card-custom-title "
-                         style="color: #FBD16B">{{trans('part-service/our-serivce.card-custom-title-1')}}</div>
+                         style="color: #FBD16B">{{$service_card_custom_title[0]->content}}</div>
                     <div class="card-text text-white col-lg-12 mt-4 text-left " >
-                        {{trans('part-service/our-serivce.card-custom-content-1')}}</div>
+                        {{$service_card_custom_content[0]->content}}</div>
 
                 </div>
                 <div class="card-link text-right mb-lg-4">
-                    <a href="#" class="mr-3" style="color: #FBD16B; ">{{trans('APP.link-card-right')}}<img
+                    <a href="{{$service_card_custom_link[0]->content}}" class="mr-3" style="color: #FBD16B; ">{{trans('APP.link-card-right')}}<img
                             src="/img/arrow_forward.png" class="img-fluid small ml-3"></a>
                 </div>
             </div>
             <div class="card col-lg-4 shadow wow fadeInLeftBig" data-wow-delay="0.8s">
                 <div class="card-body">
-                    <img class="row-cols-2 card-img img-fluid" src="/img/Group 243@2x.png">
-                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{trans('part-service/our-serivce.card-title-2')}}</div>
+                    <img class="row-cols-2 card-img img-fluid" src="{{$service_card_1_image[0]->content}}">
+                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{$service_card_1_title[0]->content}}</div>
                 </div>
             </div>
             <div class="card col-lg-4 shadow wow fadeInLeftBig" data-wow-delay="1s">
                 <div class="card-body">
-                    <img class="card-img img-fluid" src="/img/Group 243@2x.png">
-                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{trans('part-service/our-serivce.card-title-3')}}</div>
+                    <img class="card-img img-fluid" src="{{$service_card_2_image[0]->content}}">
+                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{$service_card_2_title[0]->content}}</div>
                 </div>
             </div>
         </div>
         <div class="card-deck mt-3">
             <div class="card col-lg-4 shadow wow fadeInLeftBig" data-wow-delay="1.2s">
                 <div class="card-body">
-                    <img class="card-img img-fluid" src="/img/Group 243@2x.png">
-                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{trans('part-service/our-serivce.card-title-4')}}</div>
+                    <img class="card-img img-fluid" src="{{$service_card_3_image[0]->content}}">
+                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{$service_card_3_title[0]->content}}</div>
                 </div>
             </div>
             <div class="card col-lg-4 shadow wow fadeInLeftBig" data-wow-delay="1.4s">
                 <div class="card-body">
-                    <img class="card-img img-fluid" src="/img/Group 243@2x.png">
-                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{trans('part-service/our-serivce.card-title-5')}}</div>
+                    <img class="card-img img-fluid" src="{{$service_card_4_image[0]->content}}">
+                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{$service_card_4_title[0]->content}}</div>
                 </div>
             </div>
             <div class="card col-lg-4 shadow wow fadeInLeftBig" data-wow-delay="1.6s">
                 <div class="card-body">
-                    <img class="card-img img-fluid" src="/img/Group 243@2x.png">
-                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{trans('part-service/our-serivce.card-title-6')}}</div>
+                    <img class="card-img img-fluid" src="{{$service_card_5_image[0]->content}}">
+                    <div class="card-title font-weight-bold card-title-our-service mb-2">{{$service_card_5_title[0]->content}}</div>
                 </div>
             </div>
         </div>

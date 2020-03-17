@@ -7,7 +7,7 @@
             <span class="mt-lg-n5" style="border-color: #707070; text-shadow: #000000">__</span>
         </div>
         <div class="text-left ml-lg-5 mt-lg-5 mr-lg-5 text-white"
-             style="font-size: 18px">{{trans('part-home/Solutions_deliver.content')}}</div>
+             style="font-size: 18px">{{$SOLUTIONS_DELIVER_content[0]->content}}</div>
     </div>
     <div class="card-group col-lg-12 mx-auto mt-5 wow fadeInUp" data-wow-delay="0.7s">
         <div class="card no-gutters card-text-custom col-lg-2 m-3 shadow bg-white text-center mx-auto wow fadeInUp" data-wow-delay="0.8s">

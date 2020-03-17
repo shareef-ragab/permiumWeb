@@ -2,6 +2,7 @@
 @section('import')
     <link href="/css/srvice.css" rel="stylesheet">
 @endsection
+@section('title-page','Service')
 @section('content')
 @section('classes-background','')
 <div class="nav-service" >
@@ -16,7 +17,7 @@
             <img class="small img-fluid" src="/img/Rectangle 39.png">
         </div>
         <div class="col-6 mt-2 wow fadeInLeft"
-             data-wow-delay="0.8s">{{trans('part-service/serivce.content-title')}}</div>
+             data-wow-delay="0.8s">{{$content_sevice[0]->content}}</div>
     </div>
     @include('layouts.part-service.our-service')
     @include('layouts.part-service.our_clients')

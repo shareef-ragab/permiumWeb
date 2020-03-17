@@ -2,6 +2,7 @@
 @section('import')
     <link href="/css/Cost_calculator.css" rel="stylesheet">
 @endsection
+@section('title-page','Cost Calculator')
 @section('content')
 @section('classes-background','')
 <div class="nav-Cost">
@@ -16,7 +17,7 @@
             <img class="small img-fluid" src="/img/Rectangle 39.png">
         </div>
         <div class="col-6 mt-2 wow fadeInLeft"
-             data-wow-delay="0.8s">{{trans('part-service/serivce.content-title')}}</div>
+             data-wow-delay="0.8s">{{$content_Cost_calculator[0]->content}}</div>
     </div>
     @include('layouts.part-service.Tell_us_project')
 

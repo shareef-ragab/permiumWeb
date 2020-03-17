@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
@@ -12,10 +13,10 @@ class ExploreOurOffering extends Migration
             $table->bigIncrements('id');
             $table->string('title');
             $table->text('content');
-            $table->string('list-1');
-            $table->string('list-2');
-            $table->string('list-3');
-            $table->string('list-4');
+            $table->string('list_1');
+            $table->string('list_2');
+            $table->string('list_3');
+            $table->string('list_4');
             $table->string('link');
             $table->softDeletes();
             $table->timestamp("dataCreate")->nullable()->useCurrent();
