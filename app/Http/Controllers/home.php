@@ -8,8 +8,10 @@ class home extends Controller
 {
     public function index()
     {
+        $solutions_we_deliver=DB::table('solutions_we_deliver')->orderBy('dataCreate','asc')->get();
+        $count_line=$solutions_we_deliver->count()/5;
 
-        return view('welcome')
+        return view('welcome',['solutions_we_deliver'=>$solutions_we_deliver,'count_line'=>$count_line])
             ->with('address', DB::table('content_static')->where('ID', 'address')->get())
             ->with('content_about', DB::table('content_static')->where('ID', 'content-about')->get())
             ->with('content_CONSULTATION', DB::table('content_static')->where('ID', 'content-CONSULTATION')->get())
@@ -85,7 +87,9 @@ class home extends Controller
             ->with('stories_card_3_image', DB::table('content_static')->where('ID', 'stories-card-3-image')->get())
             ->with('stories_card_4_image', DB::table('content_static')->where('ID', 'stories-card-4-image')->get())
             ->with('EXPLORE_OFFERINGS', DB::select('SELECT * FROM explore_our_offering order by dataCreate asc limit 8;'))
-        ->with('CUSTOMERS_SAY', DB::select('SELECT * FROM customers_say order by dataCreate asc limit 5;'));
+            ->with('CUSTOMERS_SAY', DB::select('SELECT * FROM customers_say order by dataCreate asc limit 5;'))
+            ->with('improve_trends', DB::select('SELECT * FROM improve_and_innovate_with_the_tech_trends order by dataCreate asc limit 6;'))
+            ->with('partnerships', DB::select('SELECT * FROM reognitions_partnerships order by dataCreate asc ;'));
 
     }
 }

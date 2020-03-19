@@ -128,19 +128,8 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
-      <path value="$PROJECT_DIR$/vendor/confrariaweb/laravel-template-admin-metronic" />
-      <path value="$PROJECT_DIR$/vendor/zacksleo/metronic" />
-      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-krajee-base" />
-      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-grid" />
-      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-dialog" />
-      <path value="$PROJECT_DIR$/vendor/dlds/yii2-metronic" />
-      <path value="$PROJECT_DIR$/vendor/yiisoft/jquery" />
-      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-composer" />
-      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2" />
-      <path value="$PROJECT_DIR$/vendor/yiisoft/jquery-pjax" />
-      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
-      <path value="$PROJECT_DIR$/vendor/cebe/markdown" />
       <path value="$PROJECT_DIR$/vendor/raalveco/scaffolding" />
+      <path value="$PROJECT_DIR$/vendor/almasaeed2010/adminlte" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Y4DirSq330HpE85dG6YaqBZquw" />
@@ -153,27 +142,32 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dumpAutoload C:/wamp64/www/‫premiumWeb-control/composer.json" value="--no-interaction --ansi --verbose --classmap-authoritative --apcu" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.19.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/pages-admin" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\‫premiumWeb-control\resources\views\auth" />
+      <recent name="C:\wamp64\www\‫premiumWeb-control\resources\views\pages-admin" />
+      <recent name="C:\wamp64\www\‫premiumWeb-control\resources\views" />
       <recent name="C:\wamp64\www\‫premiumWeb-control\resources\views\layouts" />
-      <recent name="C:\Ampps\www\premiumWeb\public\css" />
-      <recent name="C:\Ampps\www\premiumWeb\resources\lang\en\part-home" />
-      <recent name="C:\Ampps\www\premiumWeb\resources\views\layouts\part_Home" />
+      <recent name="C:\wamp64\www\‫premiumWeb-control\resources\views\layouts\part-admin" />
+      <recent name="C:\wamp64\www\‫premiumWeb-control\public\dist" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\‫premiumWeb-control\resources\views\pages-admin" />
+      <recent name="C:\wamp64\www\‫premiumWeb-control\public" />
       <recent name="C:\wamp64\www\‫premiumWeb-control\resources\views" />
       <recent name="C:\wamp64\www\‫premiumWeb-control\resources\views\auth" />
-      <recent name="C:\wamp64\www\‫premiumWeb-control\public" />
       <recent name="C:\wamp64\www\premiumWeb\resources\lang\ar" />
-      <recent name="C:\Ampps\www\premiumWeb\public\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -228,6 +222,8 @@
       <workItem from="1584261763416" duration="25444000" />
       <workItem from="1584348838954" duration="18847000" />
       <workItem from="1584434916089" duration="24338000" />
+      <workItem from="1584520667981" duration="24262000" />
+      <workItem from="1584608290669" duration="24687000" />
     </task>
     <servers />
   </component>
@@ -240,14 +236,18 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="272" y="10" key="#Deployment" timestamp="1584525715505">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="272" y="10" key="#Deployment/0.0.1366.768@0.0.1366.768" timestamp="1584525715505" />
     <state x="275" y="41" key="#Inspections" timestamp="1584350663090">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="41" key="#Inspections/0.0.1366.768@0.0.1366.768" timestamp="1584350663090" />
-    <state x="275" y="41" key="#SQL_Dialects" timestamp="1584368990394">
+    <state x="275" y="41" key="#SQL_Dialects" timestamp="1584531616928">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="41" key="#SQL_Dialects/0.0.1366.768@0.0.1366.768" timestamp="1584368990394" />
+    <state x="275" y="41" key="#SQL_Dialects/0.0.1366.768@0.0.1366.768" timestamp="1584531616928" />
     <state x="275" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584370128180">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -270,10 +270,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="356" y="308" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1584270408682" />
-    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584365869445">
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584624669479">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1584365869445" />
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1584624669479" />
     <state x="413" y="121" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584266732678">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -287,40 +287,40 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="367" y="38" width="646" height="692" key="#phpunit.xml/0.0.1366.768@0.0.1366.768" timestamp="1583414243485" />
-    <state x="497" y="272" key="ComposerDumpAutoloadDialog" timestamp="1584456056786">
+    <state x="497" y="272" key="ComposerDumpAutoloadDialog" timestamp="1584535561491">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="497" y="272" key="ComposerDumpAutoloadDialog/0.0.1366.768@0.0.1366.768" timestamp="1584456056786" />
+    <state x="497" y="272" key="ComposerDumpAutoloadDialog/0.0.1366.768@0.0.1366.768" timestamp="1584535561491" />
     <state x="523" y="296" key="ComposerInitDialogKey" timestamp="1583854787325">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="523" y="296" key="ComposerInitDialogKey/0.0.1366.768@0.0.1366.768" timestamp="1583854787325" />
-    <state x="511" y="359" key="Create Controller" timestamp="1584436275016">
+    <state x="511" y="359" key="Create Controller" timestamp="1584535286354">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="389" y="281" key="Create Controller/0.0.1366.738@0.0.1366.738" timestamp="1583838972549" />
-    <state x="511" y="359" key="Create Controller/0.0.1366.768@0.0.1366.768" timestamp="1584436275016" />
-    <state x="557" y="266" key="Create Database Migration" timestamp="1584365045045">
+    <state x="511" y="359" key="Create Controller/0.0.1366.768@0.0.1366.768" timestamp="1584535286354" />
+    <state x="557" y="266" key="Create Database Migration" timestamp="1584533213107">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="557" y="266" key="Create Database Migration/0.0.1366.768@0.0.1366.768" timestamp="1584365045045" />
+    <state x="557" y="266" key="Create Database Migration/0.0.1366.768@0.0.1366.768" timestamp="1584533213107" />
     <state x="557" y="307" key="Create Database Seeder" timestamp="1584455531039">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="557" y="307" key="Create Database Seeder/0.0.1366.768@0.0.1366.768" timestamp="1584455531039" />
-    <state x="526" y="278" key="Create Middleware" timestamp="1584350918848">
+    <state x="692" y="291" key="Create Middleware" timestamp="1584623506051">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="526" y="278" key="Create Middleware/0.0.1366.768@0.0.1366.768" timestamp="1584350918848" />
+    <state x="692" y="291" key="Create Middleware/0.0.1366.768@0.0.1366.768" timestamp="1584623506051" />
     <state x="92" y="92" width="1182" height="584" key="DiffContextDialog" timestamp="1584284340742">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="92" y="92" width="1182" height="584" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1584284340742" />
-    <state x="463" y="116" key="FileChooserDialogImpl" timestamp="1584369226321">
+    <state x="463" y="116" key="FileChooserDialogImpl" timestamp="1584611525373">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1583143199671" />
-    <state x="463" y="116" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584369226321" />
+    <state x="463" y="116" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584611525373" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1584369586370">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -340,42 +340,31 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="92" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1584284490414" />
-    <state x="92" y="96" width="1182" height="577" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584351055109">
+    <state x="182" y="110" width="1182" height="577" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584621253567">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1582534876017" />
-    <state x="92" y="96" width="1182" height="577" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1584351055109" />
+    <state x="182" y="110" width="1182" height="577" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1584621253567" />
     <state x="92" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1584461245412">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="92" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1584461245412" />
-    <state x="384" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1584434937006">
+    <state x="384" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1584608290797">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="384" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582450157794" />
     <state x="384" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1583831045791" />
-    <state x="384" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584434937006" />
+    <state x="384" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584608290797" />
     <state x="339" y="171" key="run.anything.popup" timestamp="1584442538182">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582451508624" />
     <state x="339" y="164" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1582535962076" />
     <state x="339" y="171" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1584442538182" />
-    <state x="346" y="61" width="672" height="678" key="search.everywhere.popup" timestamp="1583416138548">
+    <state x="346" y="61" width="672" height="678" key="search.everywhere.popup" timestamp="1584618454713">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="346" y="59" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1582554260284" />
-    <state x="346" y="61" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1583416138548" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/layouts/script-admin.blade.php</url>
-          <line>27</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="346" y="61" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1584618454713" />
   </component>
 </project>

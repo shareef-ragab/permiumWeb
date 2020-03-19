@@ -12,6 +12,7 @@
 */
 
 use App\Http\Middleware\loginAuth;
+use App\Http\Middleware\redirectLogin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Session;
@@ -29,10 +30,13 @@ Route::get('/COST_CALCULATOR', array('as' => 'COST_CALCULATOR','uses' => 'COST_C
 Route::post('/CALCULATE', array('as' => 'CALCULATE','uses' => 'COST_CALCULATOR@CALCULATE'));
 Route::get('/login', array('uses' => 'Profile@login'))->middleware(loginAuth::class);
 Route::post('/login', array('as'=>'login_user','uses' => 'Profile@login_user'));
-Route::get('/Dashboard', array('as'=>'Dashboard','uses' => 'Dashboard@index'));
-Route::get('/lock', array('as'=>'lock','uses' => 'Profile@lock'));
+Route::get('/Dashboard', array('as'=>'Dashboard','uses' => 'Dashboard@index'))->middleware(redirectLogin::class);
+Route::get('/lock', array('as'=>'lock','uses' => 'Profile@lock'))->middleware(redirectLogin::class);
 Route::post('/unlock', array('as'=>'unlock','uses' => 'Profile@unlock'));
-Route::get('/logout', array('as'=>'logout','uses' => 'Profile@logout'));
+Route::get('/logout', array('as'=>'logout','uses' => 'Profile@logout'))->middleware(redirectLogin::class);
 Route::get('/Calender', array('as'=>'Calender','uses'=>function () {
-    return view('calender')->with('user', session()->get('user'));
-}));
+    return view('pages-admin.calender')->with('user', session()->get('user'));
+}))->middleware(redirectLogin::class);
+Route::get('/edit_content', array('as'=>'edit_content','uses'=>'edit_content@edit_content_statics'))->middleware(redirectLogin::class);
+Route::get('/edit_footer', array('as'=>'edit_footer','uses'=>'edit_content@edit_footer'))->middleware(redirectLogin::class);
+Route::get('/edit_header', array('as'=>'edit_header','uses'=>'edit_content@edit_header'))->middleware(redirectLogin::class);

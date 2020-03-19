@@ -20,7 +20,6 @@
              data-wow-delay="0.8s">{{$content_Cost_calculator[0]->content}}</div>
     </div>
     @include('layouts.part-service.Tell_us_project')
-
     @include('layouts.part-service.get_started')
 </div>
 @endsection

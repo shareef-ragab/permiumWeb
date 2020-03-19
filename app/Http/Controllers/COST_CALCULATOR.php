@@ -10,7 +10,7 @@ class COST_CALCULATOR extends Controller
     {
         return view('Cost_calculator')
             ->with('address', DB::table('content_static')->where('ID', 'address')->get())
-            ->with('content_Cost_calculator', DB::table('content_static')->where('ID', 'content-Cost_calculator')->get())
+            ->with('content_Cost_calculator', DB::table('content_static')->where('ID', 'Cost_calculator')->get())
             ->with('count_client', DB::table('content_static')->where('ID', 'count-client')->get())
             ->with('count_Operation', DB::table('content_static')->where('ID', 'count-Operation')->get())
             ->with('email', DB::table('content_static')->where('ID', 'email')->get())
@@ -33,7 +33,8 @@ class COST_CALCULATOR extends Controller
             ->with('content_cost', DB::table('content_static')->where('ID', 'content-cost')->get())
             ->with('content_get_starr', DB::table('content_static')->where('ID', 'content-get-starr')->get())
             ->with('phone', DB::table('content_static')->where('ID', 'phone')->get())
-            ->with('content_client', DB::table('content_static')->where('ID', 'content-client')->get());
+            ->with('content_client', DB::table('content_static')->where('ID', 'content-client')->get())
+            ->with('partnerships', DB::select('SELECT * FROM reognitions_partnerships order by dataCreate asc ;'));
     }
 
     public function CALCULATE()

@@ -31,16 +31,16 @@
             <div class="card-body mt-lg-5">
                 {!! Form::open(['route' => 'send_service', 'method' => 'post']) !!}
                 <div class="form-group wow fadeInDownBig" data-wow-delay="0.6s">
-                    {!! Form::text('input-1', null, ['class' => 'form-control border-0','style'=>'background-color: #FAFAFA;','placeholder'=>trans('part-service/get_started.input-1')]) !!}
+                    {!! Form::text('full_name', null, ['class' => 'form-control border-0','style'=>'background-color: #FAFAFA;','placeholder'=>trans('part-service/get_started.input-1')]) !!}
                 </div>
                 <div class="form-group wow fadeInDownBig" data-wow-delay="0.6s">
-                    {!! Form::text('input-2', null, ['class' => 'form-control border-0','style'=>'background-color: #FAFAFA;','placeholder'=>trans('part-service/get_started.input-2')]) !!}
+                    {!! Form::text('company', null, ['class' => 'form-control border-0','style'=>'background-color: #FAFAFA;','placeholder'=>trans('part-service/get_started.input-2')]) !!}
                 </div>
                 <div class="form-group wow fadeInDownBig" data-wow-delay="0.6s">
-                    {!! Form::text('input-3', null, ['class' => 'form-control border-0','style'=>'background-color: #FAFAFA;','placeholder'=>trans('part-service/get_started.input-3')]) !!}
+                    {!! Form::Email('email', null, ['class' => 'form-control border-0','style'=>'background-color: #FAFAFA;','placeholder'=>trans('part-service/get_started.input-3')]) !!}
                 </div>
                 <div class="form-group wow fadeInDownBig" data-wow-delay="0.6s">
-                   {!! Form::textarea('input-4', null, ['class' => 'form-control border-0','style'=>'background-color: #FAFAFA;max-height: 200px ','placeholder'=>trans('part-service/get_started.input-4')]) !!}
+                   {!! Form::textarea('content', null, ['class' => 'form-control border-0','style'=>'background-color: #FAFAFA;max-height: 200px ','placeholder'=>trans('part-service/get_started.input-4')]) !!}
                 </div>
                 <div class="form-group wow fadeInUpBig" data-wow-delay="0.6s" style="border: none;">
                   {!! Form::submit('send', ['class' => 'form-control mb-lg-5 border-0 w-50 mx-auto font-weight-bold text-uppercase','style'=>'background-color: #FBD16B; color:#000']) !!}

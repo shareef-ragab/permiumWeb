@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Input;
 
 class service extends Controller
 {
@@ -33,11 +34,22 @@ class service extends Controller
             ->with('content_cost', DB::table('content_static')->where('ID', 'content-cost')->get())
             ->with('content_get_starr', DB::table('content_static')->where('ID', 'content-get-starr')->get())
             ->with('phone', DB::table('content_static')->where('ID', 'phone')->get())
-            ->with('content_client', DB::table('content_static')->where('ID', 'content-client')->get());
+            ->with('content_client', DB::table('content_static')->where('ID', 'content-client')->get())
+            ->with('partnerships', DB::select('SELECT * FROM reognitions_partnerships order by dataCreate asc ;'));
     }
 
     public function send_service()
     {
-
+        $full_name = Input::input('full_name');
+        $email = Input::input('email');
+        $content = Input::input('content');
+        $company = Input::input('company');
+        DB::table('get_start')->insert([
+            'full_name' => $full_name,
+            'email' => $email,
+            'content' => $content,
+            'company' => $company
+        ]);
+        return redirect()->back();
     }
 }

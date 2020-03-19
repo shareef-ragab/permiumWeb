@@ -15,9 +15,9 @@ class loginAuth
      */
     public function handle($request, Closure $next)
     {
-
         if (session()->has('user')) {
             session()->put('user',session()->get('user'));
+            $request->session()->put('user',session()->get('user'));
             return redirect()->route('Dashboard');
         }
         return $next($request);

@@ -14,7 +14,7 @@ class Profile extends Controller
 
     public function Login()
     {
-        return view('auth.login');
+        return view('pages-admin.login');
     }
 
     public function login_user()
@@ -33,7 +33,7 @@ class Profile extends Controller
 
     public function lock()
     {
-        return view('auth.lock')->with('user', session()->get('user'));
+        return view('pages-admin.lock')->with('user', session()->get('user'));
     }
 
     public function unlock()
