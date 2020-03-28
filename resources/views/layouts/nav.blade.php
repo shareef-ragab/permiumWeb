@@ -20,7 +20,7 @@
                     <a class="nav-link text-uppercase font-weight-bold m-3 mouse" href="#">{{trans('nav.about_us')}}</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-uppercase font-weight-bold m-3 mouse" href="#">{{trans('nav.portfolio')}}</a>
+                    <a class="nav-link text-uppercase font-weight-bold m-3 mouse" href="{{route('portfolio')}}">{{trans('nav.portfolio')}}</a>
                 </li>
 
                 <li class="nav-item ">

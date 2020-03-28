@@ -179,31 +179,31 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-wrap text-justify mt-1">
+                            <a href="{{route('edit_offer')}}" class="nav-link text-wrap text-justify mt-1 @if($active==="Explore_offer") active @endif">
                                 <i class="fas fa-file-alt mr-1"></i>
                                 {{trans('part-home/Explore_offering.Explore_offering')}}
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a href="#" class="nav-link text-wrap text-justify mt-1">
+                            <a href="{{route('edit_trends')}}" class="nav-link text-wrap text-justify mt-1 @if($active==="trends") active @endif">
                                 <i class="fas fa-file-alt mr-1"></i>
                                   {{trans('part-home/improve_innovate_trends.title')}}
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-wrap text-justify mt-1">
+                            <a href="{{route('edit_Solutions')}}" class="nav-link text-wrap text-justify mt-1 @if($active==="Solutions") active @endif">
                                 <i class="fas fa-file-alt mr-1"></i>
                                 <p> {{trans('part-home/Solutions_deliver.title')}}</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-wrap text-justify mt-1">
+                            <a href="{{route('edit_customer_say')}}" class="nav-link text-wrap text-justify mt-1 @if($active==="customer_say") active @endif">
                                 <i class="fas fa-file-alt mr-1"></i>
                                 <p> {{trans('part-home/OUR_CUSTOMERS_SAY.title')}}</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-wrap  mt-1">
+                            <a href="{{route('edit_partnership')}}" class="nav-link text-wrap  mt-1 @if($active==="partnership") active @endif ">
                                 <i class="fas fa-file-alt mr-1"></i>
                                  {{trans('App.recognitions_partnerships')}}
                             </a>

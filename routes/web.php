@@ -40,3 +40,9 @@ Route::get('/Calender', array('as'=>'Calender','uses'=>function () {
 Route::get('/edit_content', array('as'=>'edit_content','uses'=>'edit_content@edit_content_statics'))->middleware(redirectLogin::class);
 Route::get('/edit_footer', array('as'=>'edit_footer','uses'=>'edit_content@edit_footer'))->middleware(redirectLogin::class);
 Route::get('/edit_header', array('as'=>'edit_header','uses'=>'edit_content@edit_header'))->middleware(redirectLogin::class);
+Route::get('/edit_Offer', array('as'=>'edit_offer','uses'=>'edit_content@edit_offer'))->middleware(redirectLogin::class);
+Route::get('/edit_trends', array('as'=>'edit_trends','uses'=>'edit_content@edit_trend'))->middleware(redirectLogin::class);
+Route::get('/edit_customer_say', array('as'=>'edit_customer_say','uses'=>'edit_content@edit_customer_say'))->middleware(redirectLogin::class);
+Route::get('/edit_Solutions', array('as'=>'edit_Solutions','uses'=>'edit_content@edit_Solutions'))->middleware(redirectLogin::class);
+Route::get('/edit_partnership', array('as'=>'edit_partnership','uses'=>'edit_content@edit_partnership'))->middleware(redirectLogin::class);
+Route::get('/portfolio', array('as' => 'portfolio','uses' => 'protfolio@index'));

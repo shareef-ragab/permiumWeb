@@ -168,6 +168,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                             <!-- /.card-body -->
 
@@ -227,12 +228,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="input-group ">
-                                    <div class="custom-file border-0 ">
-                                        <input type="file" class="custom-file-input border-0  "
-                                               id="exampleInputFile2">
-                                        <label class="custom-file-label border-0  " for="exampleInputFile2">Choose
-                                            file</label>
+                                <div class="form-group border-0">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input border-0" id="customFile">
+                                        <label class="custom-file-label border-0" for="customFile">Choose file</label>
                                     </div>
                                 </div>
                             </div>
@@ -290,12 +289,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="input-group ">
-                                    <div class="custom-file border-0 ">
-                                        <input type="file" class="custom-file-input border-0  "
-                                               id="exampleInputFile2">
-                                        <label class="custom-file-label border-0  " for="exampleInputFile2">Choose
-                                            file</label>
+                                <div class="form-group border-0">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input border-0" id="customFile">
+                                        <label class="custom-file-label border-0" for="customFile">Choose file</label>
                                     </div>
                                 </div>
                             </div>
@@ -353,12 +350,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="input-group ">
-                                    <div class="custom-file border-0 ">
-                                        <input type="file" class="custom-file-input border-0  "
-                                               id="exampleInputFile2">
-                                        <label class="custom-file-label border-0  " for="exampleInputFile2">Choose
-                                            file</label>
+                                <div class="form-group border-0">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input border-0" id="customFile">
+                                        <label class="custom-file-label border-0" for="customFile">Choose file</label>
                                     </div>
                                 </div>
                             </div>
@@ -380,4 +375,10 @@
 @endsection
 @section('import-script')
     <script src="/dist/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            bsCustomFileInput.init();
+        });
+    </script>
+
 @endsection

@@ -26,7 +26,7 @@
                 <div class="no-gutters">
                     <div class="text-left ml-lg-5 mt-lg-5 " style="font-size: 18px">{{$improve_trends[$i]->content}}</div>
                     <div class="text-left ml-lg-5 mt-lg-5 font-weight-bold text-uppercase"
-                         style="font-size: 18px">{{trans('part-home/improve_innovate_trends.title-serve-item-1')}}</div>
+                         style="font-size: 18px">{{trans('part-home/improve_innovate_trends.title-serve-item')}}</div>
                     <div class="text-left ml-lg-5 mt-lg-n5 display-4"
                          style="color: #FBD16B; border-color: #707070;opacity: 1"><span class="mt-lg-auto" style="border-color: #707070; text-shadow: #000000">__</span>
                     </div>

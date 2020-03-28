@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/css/animate.css">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/index_page.css"  >
     @yield('import')
     <title>{{trans('APP.title').' | '}}@yield('title-page','Home')</title>
 </head>
@@ -34,8 +35,13 @@
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
 <script src="/js/background.js"></script>
+<script src="/js/jquery-3.2.1.min.js" ></script>
+<script src="/js/popper.min.js" ></script>
+<script src="/js/bootstrap.js" ></script>
+
 <script src="/js/scrollUp.min.js"></script>
 <script src="/js/wow.min.js"></script>
+
 <script>
     $('#list-tab-our-customer a').on('click', function (e) {
         e.preventDefault()
